@@ -3,6 +3,10 @@
         "/^Set-Location -Path \"e:\\\\Data Analytics Course\\\\Git\\\\New folder\\\\todo-list\"; python -m http\\.server 8000$/": {
             "approve": true,
             "matchCommandLine": true
+        },
+        "/^python -c \"import urllib\\.request; print\\(urllib\\.request\\.urlopen\\('http://localhost:8000'\\)\\.status\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
         }
     }
 }
