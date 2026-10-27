@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Todo List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="app-header">
+        <div>
+          <p class="eyebrow">Daily planner</p>
+          <h1>My Personal Todo List</h1>
+        </div>
+        <p id="dateText" class="date-text"></p>
+      </header>
+
+      <form id="todoForm" class="todo-form">
+        <label for="todoInput" class="sr-only">Add a task</label>
+        <input
+          id="todoInput"
+          type="text"
+          maxlength="120"
+          placeholder="What needs to be done?"
+          autocomplete="off"
+        />
+        <button type="submit">Add task</button>
+      </form>
+
+      <div class="toolbar">
+        <span id="taskCount">0 tasks left</span>
+        <button id="clearCompleted" type="button" class="secondary-btn">
+          Clear completed
+        </button>
+      </div>
+
+      <ul id="todoList" class="todo-list" aria-live="polite"></ul>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^Set-Location -Path \"e:\\\\Data Analytics Course\\\\Git\\\\New folder\\\\todo-list\"; python -m http\\.server 8000$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
